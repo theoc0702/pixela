@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login {
+    background: #333;
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+.login h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+.register {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.register:hover {
+    background-color: #0056b3;
+}
+
+#login-result {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px; /* Augmente encore la taille de la police */
+    color: white; /* Change la couleur du texte pour plus de contraste */
+    padding: 30px; /* Augmente le padding pour plus d'espace interne */
+    border-radius: 8px;
+    text-align: center;
+    width:500px; /* Augmente légèrement la largeur */
+    box-sizing: border-box;
+}
+
+
+.logout {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 15px; /* Augmente la taille du padding pour un bouton plus grand */
+    cursor: pointer;
+    width: 300px; /* Assure que la largeur est la même que le formulaire */
+    font-size: 18px; /* Augmente la taille de la police */
+    margin-top: 20px; /* Ajoute un espace en haut pour séparer du résultat */
+}
+
+.logout:hover {
+    background-color: #c82333;
+}
